@@ -1,0 +1,96 @@
+/* Navbar Styles */
+.navbar-custom {
+  background-color: #ffffff;
+  padding: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  height: 90px;
+  width: auto;
+  object-fit: contain;
+}
+
+.navbar-nav .nav-link {
+  color: #555555 !important;
+  font-weight: 500;
+  margin: 0 25px;
+  font-size: 16px;
+  padding: 8px 0;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #BE750E !important;
+}
+
+/* Active state indicator */
+.navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  background-color: #BE750E;
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.navbar-nav .nav-link:hover::after,
+.navbar-nav .nav-link.active::after {
+  width: 100%;
+}
+
+.contact-btn {
+  background-color: #374151;
+  color: white !important;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.contact-btn:hover {
+  background-color: #BE750E;
+  color: white !important;
+}
+
+/* Center the navigation */
+.navbar-nav {
+  justify-content: center;
+}
+
+/* Responsive Design */
+@media (max-width: 991px) {
+  .navbar-nav .nav-link {
+    padding: 10px 0;
+    margin: 5px 0;
+    text-align: center;
+  }
+
+  .navbar-nav .nav-link::after {
+    display: none;
+  }
+}
+
+/* General Styles */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+}
