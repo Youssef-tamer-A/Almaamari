@@ -32,7 +32,7 @@
 
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
-  color: #BE750E !important;
+  color: #be750e !important;
 }
 
 /* Active state indicator */
@@ -43,7 +43,7 @@
   height: 2px;
   bottom: 0;
   left: 50%;
-  background-color: #BE750E;
+  background-color: #be750e;
   transition: all 0.3s ease;
   transform: translateX(-50%);
 }
@@ -64,7 +64,7 @@
 }
 
 .contact-btn:hover {
-  background-color: #BE750E;
+  background-color: #be750e;
   color: white !important;
 }
 
