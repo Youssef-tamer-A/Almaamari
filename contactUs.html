@@ -13,6 +13,7 @@
 
     <link rel="stylesheet" href="assets/css/navbar.css" />
     <link rel="stylesheet" href="assets/css/footer.css" />
+    <link rel="stylesheet" href="assets/css/contact.css" />
     <!-- Font Awesome for icons -->
     <link
       rel="stylesheet"
@@ -59,11 +60,82 @@
       </div>
     </nav>
 
-    <!-- محتوى الصفحة -->
-    <div class="container mt-5">
-      <h1>تواصل معنا</h1>
-      <p>هنا سيتم إضافة محتوى صفحة "تواصل معنا"</p>
+
+
+
+
+<img src="/assets/images/letter.jpg" class="zxc"/>
+
+
+
+
+
+  <h4 class="text-center text-warning mb-5">تواصل معنا</h4>
+
+  <div class="contact-section d-flex flex-column flex-md-row">
+    
+    <!-- Left side: form -->
+    <div class="col-md-8 contact-form">
+      <form>
+        <div class="row">
+          <div class="col-md-6">
+            <label for="firstName">الاسم الأول</label>
+            <input type="text" class="form-control" id="firstName">
+          </div>
+          <div class="col-md-6">
+            <label for="lastName">اسم العائلة</label>
+            <input type="text" class="form-control" id="lastName">
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col-md-6">
+            <label for="email">البريد الإلكتروني</label>
+            <input type="email" class="form-control" id="email">
+          </div>
+          <div class="col-md-6">
+            <label for="phone">رقم الهاتف</label>
+            <input type="text" class="form-control" id="phone">
+          </div>
+        </div>
+
+        <label for="message">رسالة</label>
+        <textarea class="form-control" id="message" placeholder="اكتب رسالتك.."></textarea>
+
+        <div class="mt-4">
+          <button type="submit" class="send-btn">
+            Send Message <i class="fas fa-paper-plane ms-2"></i>
+          </button>
+        </div>
+      </form>
     </div>
+
+    <!-- Right side: contact info -->
+    <div class="col-md-4 contact-Info">
+      <h4 class="mt-5">تواصل معنا</h4>
+      <div class="info-item">
+        <i class="fas fa-phone-alt"></i>
+        <span>+1012 3456 789</span>
+      </div>
+      <div class="info-item">
+        <i class="fas fa-envelope"></i>
+        <span>eng@gmail.com</span>
+      </div>
+      <div class="info-item">
+        <i class="fas fa-map-marker-alt"></i>
+        <span>أسيوط سيتي أمام بوابة جامعة أسيوط الرئيسية.</span>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
 
     <!-- Footer -->
     <footer class="footer">

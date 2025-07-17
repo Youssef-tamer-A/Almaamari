@@ -1,0 +1,307 @@
+.hero-section {
+  background-image: url('/assets/images/whoAreWe/image1.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 413px;
+  position: relative;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4); /* للتعتيم البسيط */
+  z-index: 1;
+}
+
+.overlay-text {
+  position: relative;
+  z-index: 2;
+  padding: 0 15px;
+}
+
+.overlay-text h5 {
+  color: white;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  font-weight: 400;
+  line-height: 1.6;
+}
+.icon-circle {
+  background-color: #f8f9fa;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-title {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.4;
+}
+.asd{
+    z-index: 20;
+}
+.custom-service-card {
+  width: 230px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.custom-service-card img.card-img-top {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.icon-wrapper {
+  background-color: #f3f3f3;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-service-card .card-title {
+  font-size: 14px;
+  color: #d88b26; /* لون برتقالي تقريبي من الصورة */
+  font-weight: 600;
+}
+
+.simple-service-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #f0f0f0;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.simple-service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15) !important;
+}
+
+.simple-service-card .icon-circle {
+  background-color: #f8f9fa;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #e9ecef;
+}
+
+.simple-service-card .card-title {
+  font-size: 16px;
+  color: #be750e;
+  font-weight: 600;
+}
+
+/* Design Card Styles - matching the exact design */
+.design-service-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #e9ecef;
+  max-width: 280px;
+  margin: 0 auto;
+}
+
+.design-service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15) !important;
+}
+
+.card-image-container {
+  position: relative;
+  height: 180px;
+  overflow: hidden;
+}
+
+.design-service-card .card-img-top {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card-body-design {
+  background-color: white;
+  padding: 20px 15px 15px 15px;
+}
+
+.icon-design-circle {
+  background-color: #f8f9fa;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #e9ecef;
+  margin: 0 auto;
+}
+
+.design-card-title {
+  font-size: 14px;
+  color: #be750e;
+  font-weight: 600;
+  margin-top: 8px;
+}
+body {
+      background-color: #f8f9fa;
+    }
+
+    .info-block {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 25px; /* مسافة بين كل سطر وسطر */
+      font-size: 1.1rem;
+      color: #2c2c2c;
+      line-height: 1.8;
+    }
+
+    .check-icon {
+      color: #f96f26;
+      font-size: 1.3rem;
+      margin-left: 12px; /* مسافة بين الأيقونة والنص */
+      margin-top: 4px;
+    }
+
+    .image-col img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    @media (max-width: 768px) {
+      .image-col {
+        margin-bottom: 20px;
+      }
+    }
+    * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            direction: rtl;
+        }
+
+        .faq-section {
+            padding: 60px 0;
+            background-color: #f8f9fa;
+        }
+
+        .section-title {
+            font-size: 28px;
+            font-weight: bold;
+            color: #333;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+            position: relative;
+            padding-top: 120px;
+        }
+
+        .faq-item {
+            background: white;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            padding: 25px 30px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .faq-question {
+            font-size: 18px;
+            font-weight: 500;
+            color: #333;
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        .faq-icon {
+            width: 24px;
+            height: 24px;
+            border: 2px solid #ddd;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            color: #666;
+            flex-shrink: 0;
+        }
+
+        .decorative-circle {
+            position: absolute;
+            width: 120px;
+            height: 120px;
+            background-color: #d4a574;
+            border-radius: 50%;
+            bottom: -20px;
+            left: 50px;
+            z-index: -1;
+        }
+
+        .hero-image {
+            position: absolute;
+            top: -60px;
+            right: 20px;
+            width: 200px;
+            height: 150px;
+            background: url('/assets/images/whoAreWe/fin.png') no-repeat center;
+            background-size: contain;
+            z-index: 1;
+            border-radius: 1px;
+            border-top-left-radius: 90%;
+            border-top-right-radius: 90%;
+            box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.79);
+-webkit-box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.79);
+-moz-box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.79);
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .faq-container {
+                padding: 80px 20px 0;
+            }
+            
+            .hero-image {
+                width: 150px;
+                height: 112px;
+                top: -40px;
+                right: 10px;
+            }
+            
+            .decorative-circle {
+                width: 80px;
+                height: 80px;
+                bottom: -10px;
+                left: 30px;
+            }
+        }
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  direction: rtl;
+}
