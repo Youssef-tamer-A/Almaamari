@@ -40,7 +40,7 @@
 
 .footer .contact-info i {
   margin-left: 8px;
-  color: #3b82f6;
+  color: #be750e;
 }
 
 .newsletter-section {
@@ -71,7 +71,7 @@
 }
 
 .newsletter-btn {
-  background-color: #3b82f6;
+  background-color: #be750e;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -82,7 +82,7 @@
 }
 
 .newsletter-btn:hover {
-  background-color: #2563eb;
+  background-color: #9c600bff;
 }
 
 .footer-bottom {

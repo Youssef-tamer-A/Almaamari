@@ -1,0 +1,163 @@
+/* Custom CSS for styles not available in Bootstrap */
+        :root {
+            --hoverTextColor: #be750e;
+            --textColor: #333;
+            --TextColor: #333;
+        }
+
+        .custom-text-20 {
+            font-size: 20px;
+        }
+
+        .custom-text-24 {
+            font-size: 24px;
+        }
+
+        .custom-width-503 {
+            width: 503px;
+        }
+
+        .custom-height-58 {
+            height: 58px;
+        }
+
+        .custom-card-size {
+            width: 251px;
+            height: 251px;
+        }
+
+        .custom-image-container {
+            width: 587px;
+            height: 457px;
+        }
+
+        .custom-image-size {
+            width: 259px;
+            height: 359px;
+        }
+
+        .custom-border-bottom {
+            border-bottom: 2px solid var(--hoverTextColor);
+        }
+
+        .custom-icon-bg {
+            background-color: var(--hoverTextColor);
+            width: 40px;
+            height: 40px;
+            padding: 4px;
+        }
+
+        .custom-margin-top-8 {
+            margin-top: 2rem;
+        }
+
+        .custom-margin-bottom-8 {
+            margin-bottom: 2rem;
+        }
+
+        .custom-margin-bottom-7 {
+            margin-bottom: 1.75rem;
+        }
+
+        .custom-margin-top-3 {
+            margin-top: 0.75rem;
+        }
+
+        .custom-gap-6 {
+            gap: 1.5rem;
+        }
+
+        .custom-gap-4 {
+            gap: 1rem;
+        }
+
+        .text-hover-color {
+            color: var(--hoverTextColor);
+        }
+
+        .text-main-color {
+            color: var(--textColor);
+        }
+
+        .text-content-color {
+            color: var(--TextColor);
+        }
+
+        .custom-button {
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 0.5rem;
+        }
+
+        .custom-button:hover {
+            opacity: 0.8;
+        }
+
+        /* Custom CSS for styles not available in Bootstrap */
+        
+        .custom-margin-top-8 {
+            margin-top: 2rem;
+        }
+
+        .custom-max-width-1280 {
+            max-width: 1280px;
+        }
+
+        .custom-height-578 {
+            height: 578px;
+        }
+
+        .custom-height-428 {
+            height: 428px;
+        }
+
+        .custom-bg-image {
+            background-image: url('/assets/images/home/main.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .custom-bg-overlay {
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+
+        .custom-shadow-heavy {
+            box-shadow: 0px 0px 27px 17px rgba(0, 0, 0, 0.75);
+        }
+
+        .custom-max-width-734 {
+            max-width: 734px;
+        }
+
+        .custom-min-height-124 {
+            min-height: 124px;
+        }
+
+        .custom-text-25 {
+            font-size: 25px;
+        }
+
+        /* Responsive text sizes */
+        .custom-responsive-text {
+            font-size: 1.125rem; /* text-lg equivalent */
+        }
+
+        @media (min-width: 576px) {
+            .custom-responsive-text {
+                font-size: 1.25rem; /* text-xl equivalent */
+            }
+        }
+
+        @media (min-width: 768px) {
+            .custom-responsive-text {
+                font-size: 1.5rem; /* text-2xl equivalent */
+            }
+        }
+
+        @media (min-width: 992px) {
+            .custom-responsive-text {
+                font-size: 25px; /* text-[25px] equivalent */
+            }
+        }
